@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>About</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Ananthapurna <span>Sai</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a href="index.html">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a href="#">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a href="exprience.html">Experience</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a href="services.html">Services</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a href="contact.html">Contact</a></div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="exprience.html">Experience</a>
+                <a href="services.html">Service</a>
+                <a href="contact.html">Contact</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section id="about">
+        <div class="about-container" data-aos="fade-up" data-aos-duration="1500">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-description">
+                Hello! I'm <span>Ananthapurna Sai</span>, a digital forensics enthusiast and problem-solver with a deep passion for uncovering the hidden truths in the digital world. With a meticulous eye for detail and a strong background in forensic techniques, I thrive on solving complex puzzles and discovering insights that others might miss.
+            </p>
+            <p class="about-description">
+                My journey in the digital space has been driven by curiosity and a love for technology. Whether it's analyzing data to find meaningful patterns or working with cutting-edge tools to dig deeper into cyber investigations, I'm always looking for ways to challenge myself and learn something new.
+            </p>
+            <p class="about-description">
+                When I'm not immersed in digital forensics, I enjoy sharing my knowledge through talks and collaborating with others in the field to tackle unique challenges. I'm always open to new opportunities and love connecting with like-minded professionals.
+            </p>
+            <div class="about-skills" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
+                <h3 class="skills-title">Skills & Expertise</h3>
+                <ul class="skills-list">
+                    <li>Digital Forensics & Cyber Investigations</li>
+                    <li>Data Analysis & Pattern Recognition</li>
+                    <li>Forensic Tools & Technologies</li>
+                    <li>Problem-Solving & Critical Thinking</li>
+                    <li>Team Collaboration & Knowledge Sharing</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
